@@ -1,0 +1,175 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main styling*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+/*links*/
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*heading*/
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/*Utility classes*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.lead {
+    font-size: 20px;
+    color: #fff;
+}
+ .btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #34b7a7;
+  }
+  
+  .btn:hover {
+    background: #3dc8b7;
+  }
+
+/*Navbar*/
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+} 
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.active {
+    background: #444;
+    color: #f7c08a;
+}
+
+/*showcase*/
+#showcase {
+    background: url("../IMG/udeme.jpg") top right;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+#showcase .showcase-content {
+    color: #444;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #555555;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .about .content ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #34b7a7;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+/*footer Section*/
+
+  #main-footer{
+    text-align: center;
+    background:#444;
+    color: #fff;
+    padding: 20px;
+}
+
+/*Contact Section*/
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px  #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+
+.box {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
